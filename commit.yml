@@ -2,19 +2,67 @@
 branches: {
   }
 fileChange:
-  /README.md:
-    newFile: !uuid '6aaf7dccd0f9bfe43a8d0b7081bf9cb0352c0061'
-    oldFile: !uuid '6038bad7ae4bb95409d5432d297ccb08ebf39f79'
-  /demo.png:
-    newFile: !uuid '7f5cd6db3d8ed7eb7e830855b3ef44e25fd02cde'
+  /docker:
+    newFile: !uuid 'e7814837f1be31901b9709a360bec97f0cc82dc5'
     oldFile: null
-  /demo2.png:
-    newFile: !uuid 'f0c06eebd973dd2ab7231c0410787bfbdbfc4a52'
+  /docker/.gitignore:
+    newFile: !uuid '44df1a27b2dbdcff347d4e2a0d9a48b29a040021'
     oldFile: null
-  /wap.png:
-    newFile: !uuid '4c1c118e5d6f6fb9604fbea4f3ed09ddd9021aa8'
+  /docker/config:
+    newFile: !uuid '52bff6da9251b52126141072daf1181c1bd4c93d'
     oldFile: null
-gitCommitId: !uuid '207e786c90365b9571f72138aa65eb07ea4f7f5b'
+  /docker/config/frps:
+    newFile: !uuid '9e3cd86430bfc43d4eac025af99c2c0facd423b7'
+    oldFile: null
+  /docker/config/frps/frps.toml:
+    newFile: !uuid '6b8f9e8cbbd23d77eb4bcf26e4ed40d2c7936ff8'
+    oldFile: null
+  /docker/config/mysql:
+    newFile: !uuid '18236ef25ccf7d31be18618ae59e971a7825111b'
+    oldFile: null
+  /docker/config/mysql/mysqld.cnf:
+    newFile: !uuid 'ec257962dcc94a7996f7e53bc5d98997961d996e'
+    oldFile: null
+  /docker/config/nginx:
+    newFile: !uuid '7aa04819de47547ec7709efd15fc325f36c9ffc7'
+    oldFile: null
+  /docker/config/nginx/conf.d:
+    newFile: !uuid '49f864cb7384d14f760b23c87557f1547788a462'
+    oldFile: null
+  /docker/config/nginx/conf.d/default.examle.conf:
+    newFile: !uuid '3d557de6e425963f18ed36f5305d78bd12320826'
+    oldFile: null
+  /docker/config/nginx/nginx.conf:
+    newFile: !uuid '2a9275162920a1cec6490fdc31c4b34ee858a109'
+    oldFile: null
+  /docker/config/php:
+    newFile: !uuid '4c6015ff426209017aabd49bcea395dcb6109ea9'
+    oldFile: null
+  /docker/config/php/php.ini:
+    newFile: !uuid 'c0af9ef0bfb4b652d49ed86ea0d9a53cf912d092'
+    oldFile: null
+  /docker/config/supervisor:
+    newFile: !uuid '01cb7db9818c3456e32aa0cd4ad4e0fc3f6a5b4a'
+    oldFile: null
+  /docker/config/supervisor/supervisor.ini:
+    newFile: !uuid 'cc82120d0a624b0dbcda82579d56fde52c205c50'
+    oldFile: null
+  /docker/docker-compose.examle.arm.yml:
+    newFile: !uuid 'd498ffc4bfe96e08bab2cef3a50b9b42e6b735e7'
+    oldFile: null
+  /docker/docker-compose.examle.yml:
+    newFile: !uuid '28924d88de48d8bfc45e24021b41252517117cd6'
+    oldFile: null
+  /docker/log:
+    newFile: !uuid '1abfb34744787bf3ef189d65d58f08554ff70312'
+    oldFile: null
+  /docker/log/supervisor:
+    newFile: !uuid '0a5568b3eb72786b7d025f317905c26d9b2a59ce'
+    oldFile: null
+  /docker/log/supervisor/index.html:
+    newFile: !uuid 'e69de29bb2d1d6434b8b29ae775ad8c2e48c5391'
+    oldFile: null
+gitCommitId: !uuid '06b16182ae253096333b9872db576b3afbcaca7b'
 renames: {
   }
-revisionId: 5
+revisionId: 6
