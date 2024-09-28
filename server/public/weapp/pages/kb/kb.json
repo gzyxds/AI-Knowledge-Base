@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "AI知识库",
+  "usingComponents": {
+    "u-tabs": "../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "z-paging-swiper": "../../node-modules/z-paging/components/z-paging-swiper/z-paging-swiper",
+    "tabbar": "../../components/tabbar/tabbar",
+    "robot": "./components/robot/index",
+    "kb": "./components/kb/index",
+    "digital": "./components/digital/index"
+  }
+}

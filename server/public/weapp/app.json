@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ai_creation/ai_creation",
+    "pages/kb/kb",
+    "pages/empty/empty",
+    "pages/user/user",
+    "pages/webview/webview",
+    "pages/login/login",
+    "uni_modules/vk-uview-ui/components/u-avatar-cropper/u-avatar-cropper"
+  ],
+  "subPackages": [
+    {
+      "root": "packages",
+      "pages": [
+        "pages/robot_square/robot_square",
+        "pages/dialogue/dialogue",
+        "pages/dialogue_role/dialogue_role",
+        "pages/digital_chat/digital_chat",
+        "pages/digital_chat/share_chat",
+        "pages/square_chat/square_chat",
+        "pages/robot_info/robot_info",
+        "pages/kb_info/kb_info",
+        "pages/digital_setting/digital_setting",
+        "pages/kb_item/kb_item",
+        "pages/release_robot/release_robot",
+        "pages/robot_chat/robot_chat",
+        "pages/customer_service/customer_service",
+        "pages/user_set/user_set",
+        "pages/as_us/as_us",
+        "pages/agreement/agreement",
+        "pages/404/404",
+        "pages/register/register",
+        "pages/change_password/change_password",
+        "pages/forget_pwd/forget_pwd",
+        "pages/use_list/use_list",
+        "pages/use_detail/use_detail",
+        "pages/cancelaccount/cancelaccount",
+        "pages/create/create",
+        "pages/create_history/create_history",
+        "pages/recharge/recharge",
+        "pages/buy_record/buy_record",
+        "pages/member_center/member_center",
+        "pages/music/music",
+        "pages/music_list/music_list",
+        "pages/video/video",
+        "pages/video_list/video_list",
+        "pages/video_detail/video_detail",
+        "pages/music_player/music_player",
+        "pages/user_works/user_works",
+        "pages/mind_map/mind_map",
+        "pages/promotion_center/promotion_center",
+        "pages/withdraw/withdraw",
+        "pages/withdraw_record/withdraw_record",
+        "pages/distribution_order/distribution_order",
+        "pages/earnings_detail/earnings_detail",
+        "pages/team_fans/team_fans",
+        "pages/invite_poster/invite_poster",
+        "pages/redeem_code/redeem_code",
+        "pages/notification/notification",
+        "pages/draw/draw",
+        "pages/draw_list/draw_list",
+        "pages/draw_detail/draw_detail",
+        "pages/task_reward/task_reward"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "__usePrivacyCheck__": true,
+  "usingComponents": {}
+}

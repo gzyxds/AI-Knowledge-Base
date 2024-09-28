@@ -1,0 +1,1 @@
+import{d as e}from"./@vue.7946e41b.js";const i=e({props:{uri:{type:String},fileSize:{type:String,default:"100px"},type:{type:String,default:"image"},fileName:{type:String,default:""}},emits:["close"]});export{i as _};

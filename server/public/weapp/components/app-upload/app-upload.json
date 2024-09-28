@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-upload": "../../uni_modules/uv-upload/components/uv-upload/uv-upload"
+  }
+}

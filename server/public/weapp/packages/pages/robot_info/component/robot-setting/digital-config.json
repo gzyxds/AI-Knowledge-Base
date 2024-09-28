@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-switch": "../../../../../uni_modules/vk-uview-ui/components/u-switch/u-switch",
+    "u-form-item": "../../../../../uni_modules/vk-uview-ui/components/u-form-item/u-form-item",
+    "u-avatar": "../../../../../uni_modules/vk-uview-ui/components/u-avatar/u-avatar"
+  }
+}

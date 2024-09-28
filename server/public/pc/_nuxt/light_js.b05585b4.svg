@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="icon_JS" transform="translate(-182 -269)">
+    <g id="矩形_8334" data-name="矩形 8334" transform="translate(182 269)" fill="#fff" stroke="#f2f2f2" stroke-width="1">
+      <rect width="44" height="44" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="43" height="43" rx="5.5" fill="none"/>
+    </g>
+    <g id="组_19218" data-name="组 19218" transform="translate(-0.714 -3)">
+      <path id="路径_24802" data-name="路径 24802" d="M.714,0H25.449L23.2,25.164,13.058,28,2.9,25.164Z" transform="translate(192 280)" fill="#d2b414"/>
+      <path id="路径_24803" data-name="路径 24803" d="M204.357,281.918h10.13l-1.911,21.768-8.219,2.189Z" transform="translate(0.725 0.119)" fill="#fed402"/>
+      <path id="路径_24804" data-name="路径 24804" d="M205.376,285.027h7.707l-.213,3.006h-5.19v4.355l5.054-.473-.757,7.9-6.828,1.77v-2.956L210,297.4l.207-2.434-4.83.838Z" transform="translate(0.774 0.313)" fill="#fff"/>
+      <path id="路径_24805" data-name="路径 24805" d="M201.363,285.027h2.524v16.666l-7.263-2.1v-2.977l4.74,1.423Z" transform="translate(0.243 0.313)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="{{['u-badge','data-v-71c32f6d',c,d,e]}}" style="{{f + ';' + g}}">{{b}}</view>

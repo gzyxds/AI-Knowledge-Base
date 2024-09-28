@@ -1,0 +1,1 @@
+function i(u=32,o=64){const e="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split(""),n=[];let t;if(o=o||e.length,u)for(t=0;t<u;t++)n[t]=e[0|Math.random()*o];else{let r;for(n[8]=n[13]=n[18]=n[23]="-",n[14]="4",t=0;t<36;t++)n[t]||(r=0|Math.random()*16,n[t]=e[t===19?r&3|8:r])}return n.join("")}export{i as u};

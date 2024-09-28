@@ -1,0 +1,1 @@
+<view class="bg-white flex justify-between items-center px-_bl_20rpx_br_ py-_bl_24rpx_br_"><slot name="left"/><view class="flex items-center" bindtap="{{b}}"><u-icon wx:if="{{a}}" u-i="51252a5f-0" bind:__l="__l" u-p="{{a}}"/><view class="flex-1 line-clamp-1 ml-_bl_8rpx_br_">新建</view></view><slot name="right"/></view>

@@ -1,0 +1,1 @@
+"use strict";const t=require("../utils/request/index.js");exports.getRoleCateList=function(){return t.request.get({url:"/chat.skill/categoryLists"})},exports.getRoleDetail=function(e){return t.request.get({url:"/chat.skill/detail",data:e})},exports.getRoleMobileList=function(e){return t.request.get({url:"/chat.skill/mobileLists",data:e})};

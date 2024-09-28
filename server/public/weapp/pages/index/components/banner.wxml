@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="px-_bl_30rpx_br_ pt-_bl_24rpx_br_"><u-swiper wx:if="{{c}}" bindclick="{{b}}" u-i="39bd5e9a-0" bind:__l="__l" u-p="{{c}}"></u-swiper></view>

@@ -1,0 +1,1 @@
+import{d as n,o as a,c,a as o,R as e}from"./@vue.7946e41b.js";const s={class:"mx-[10px] mt-[10px] form-tips text-center py-[10px]"},d=n({__name:"content",props:{content:{type:Object,default:()=>({})},styles:{type:Object,default:()=>({})}},setup(t){return(p,r)=>(a(),c("div",s,[o("div",null,e(t.content.data.title)+e(t.content.data.content),1)]))}});export{d as _};

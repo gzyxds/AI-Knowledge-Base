@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "消息通知",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "../../../uni_modules/vk-uview-ui/components/u-navbar/u-navbar",
+    "u-image": "../../../uni_modules/vk-uview-ui/components/u-image/u-image",
+    "u-badge": "../../../uni_modules/vk-uview-ui/components/u-badge/u-badge",
+    "z-paging": "../../../node-modules/z-paging/components/z-paging/z-paging"
+  }
+}

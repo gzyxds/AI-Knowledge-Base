@@ -1,0 +1,1 @@
+.buy-list__header.data-v-4efbe7e8{overflow:hidden;margin:20rpx;border-radius:14rpx}.buy-list__main.data-v-4efbe7e8{height:calc(100vh - 40px - env(safe-area-inset-bottom))}.buy-list__main .list__item.data-v-4efbe7e8{border-bottom:1px solid #e5e5e5}.buy-list__main .list__item.data-v-4efbe7e8:last-child{border-bottom:none}

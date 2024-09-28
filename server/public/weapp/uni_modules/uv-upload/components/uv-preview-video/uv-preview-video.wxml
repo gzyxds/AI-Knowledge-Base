@@ -1,0 +1,1 @@
+<uv-popup class="r data-v-0ff84edc" u-s="{{['d']}}" u-r="popup" bindchange="{{e}}" u-i="0ff84edc-0" bind:__l="__l"><view wx:if="{{a}}" class="video-view data-v-0ff84edc"><video class="video data-v-0ff84edc" src="{{b}}" autoplay="{{c}}"></video></view></uv-popup>

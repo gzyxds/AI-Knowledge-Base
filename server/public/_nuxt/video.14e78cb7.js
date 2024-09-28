@@ -1,0 +1,1 @@
+function t(){return $request.get({url:"/video/config"})}function r(e){return $request.get({url:"/video/lists",params:e})}function n(e){return $request.post({url:"/video/generate",params:e})}function o(e){return $request.post({url:"/video/del",params:e})}function u(e){return $request.get({url:"/video/translate",params:e})}export{t as a,o as d,r as g,n as p,u as t};

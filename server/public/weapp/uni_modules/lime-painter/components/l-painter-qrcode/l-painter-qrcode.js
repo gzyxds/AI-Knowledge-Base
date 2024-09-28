@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/relation.js"),r=require("../../../../common/vendor.js"),t={name:"lime-painter-qrcode",mixins:[e.children("painter")],props:{css:[String,Object],text:String},data:()=>({type:"qrcode",el:{css:{},text:null}})};const n=r._export_sfc(t,[["render",function(e,r,t,n,o,c){return{}}]]);wx.createComponent(n);

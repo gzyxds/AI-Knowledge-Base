@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "w-user-info": "../../components/widgets/user-info/user-info",
+    "w-open-vip": "../../components/widgets/open-vip/open-vip",
+    "w-user-balance": "../../components/widgets/user-balance/user-balance",
+    "w-my-service": "../../components/widgets/my-service/my-service",
+    "w-user-banner": "../../components/widgets/user-banner/user-banner",
+    "w-user-bottom": "../../components/widgets/user-bottom/user-bottom",
+    "tabbar": "../../components/tabbar/tabbar"
+  }
+}

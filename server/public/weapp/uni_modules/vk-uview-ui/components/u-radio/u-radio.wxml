@@ -1,0 +1,1 @@
+<view class="u-radio data-v-54c677da" style="{{g}}"><view bindtap="{{b}}" class="{{['u-radio__icon-wrap','data-v-54c677da',c]}}" style="{{d}}"><u-icon wx:if="{{a}}" class="u-radio__icon-wrap__icon data-v-54c677da" u-i="54c677da-0" bind:__l="__l" u-p="{{a}}"/></view><view class="u-radio__label data-v-54c677da" bindtap="{{e}}" style="{{'font-size:' + f}}"><slot/></view></view>

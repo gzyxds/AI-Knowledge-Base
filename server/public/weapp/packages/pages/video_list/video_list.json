@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "AI视频",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "../../../uni_modules/vk-uview-ui/components/u-navbar/u-navbar",
+    "u-loading": "../../../uni_modules/vk-uview-ui/components/u-loading/u-loading",
+    "u-tag": "../../../uni_modules/vk-uview-ui/components/u-tag/u-tag",
+    "z-paging": "../../../node-modules/z-paging/components/z-paging/z-paging",
+    "u-button": "../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "u-popup": "../../../uni_modules/vk-uview-ui/components/u-popup/u-popup",
+    "video-share": "./_components/video-share"
+  }
+}

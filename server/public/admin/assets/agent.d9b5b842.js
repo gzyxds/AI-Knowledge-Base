@@ -1,0 +1,1 @@
+import{r as e}from"./index.d9c09296.js";function n(t){return e.get({url:"/market.task/robotLogLists",params:t},{ignoreCancelToken:!0})}function o(t){return e.get({url:"/market.activityReward/getRobotSetting",params:t})}function i(t){return e.post({url:"/market.activityReward/setRobotSetting",params:t})}export{o as a,i as e,n as g};

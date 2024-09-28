@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-form": "../../../../../uni_modules/vk-uview-ui/components/u-form/u-form",
+    "u-button": "../../../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "base-config": "./base-config",
+    "search-config": "./search-config",
+    "interface-config": "./interface-config",
+    "digital-config": "./digital-config"
+  }
+}

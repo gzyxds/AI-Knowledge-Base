@@ -1,0 +1,1 @@
+var A=(r=>(r.BASE="search",r.ENHANCE="copilot",r.STUDY="research",r))(A||{}),S=(r=>(r.ALL="all",r.DOC="doc",r.SCHOLAR="scholar",r))(S||{}),C=(r=>(r[r.ANALYSIS=0]="ANALYSIS",r[r.SEARCH=1]="SEARCH",r[r.SUMMARY=2]="SUMMARY",r[r.SUCCESS=3]="SUCCESS",r))(C||{});export{A as ModelEnums,C as StatusEnums,S as TypeEnums};

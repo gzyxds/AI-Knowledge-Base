@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "usingComponents": {
+    "u-tabs": "../../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "u-avatar": "../../../uni_modules/vk-uview-ui/components/u-avatar/u-avatar",
+    "z-paging": "../../../node-modules/z-paging/components/z-paging/z-paging"
+  }
+}

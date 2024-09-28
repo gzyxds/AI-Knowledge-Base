@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "app-select": "../../../../../components/app-select/app-select",
+    "data": "./data",
+    "record": "./record"
+  }
+}

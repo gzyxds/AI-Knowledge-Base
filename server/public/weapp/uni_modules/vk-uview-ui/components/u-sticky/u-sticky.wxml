@@ -1,0 +1,1 @@
+<view class=" data-v-ec7a1dcc"><view class="{{['u-sticky-wrap','data-v-ec7a1dcc',f]}}" style="{{'height:' + g + ';' + ('background-color:' + h)}}"><view class="u-sticky data-v-ec7a1dcc" style="{{'position:' + a + ';' + ('top:' + b) + ';' + ('left:' + c) + ';' + ('width:' + d) + ';' + ('z-index:' + e)}}"><slot></slot></view></view></view>

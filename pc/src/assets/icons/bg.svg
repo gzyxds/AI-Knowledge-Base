@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" class="design-iconfont">
+  <defs>
+    <clipPath id="nh5hw9bgh__h1ulnx79sa">
+      <path d="M105.482,109.333H89.243a3.9,3.9,0,0,1-3.91-3.9v-16.2a3.9,3.9,0,0,1,3.91-3.9h16.179a3.9,3.9,0,0,1,3.91,3.9v16.14A3.824,3.824,0,0,1,105.482,109.333Z" transform="translate(-59.363 -16.333)" />
+    </clipPath>
+  </defs>
+  <g transform="translate(-24.971 -68)" clip-path="url(#nh5hw9bgh__h1ulnx79sa)">
+    <g transform="rotate(45 49.85972476 27.39957421)" >
+      <rect width="1.64" height="32" rx=".82" transform="translate(61.014 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(73.756 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(86.498 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(67.385 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(80.127 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(92.869 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(64.199 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(76.941 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(89.684 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(70.57 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(83.313 57.707)"/>
+      <rect width="1.64" height="32" rx=".82" transform="translate(96.055 57.707)"/>
+    </g>
+  </g>
+</svg>

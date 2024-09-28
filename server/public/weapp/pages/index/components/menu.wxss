@@ -1,0 +1,1 @@
+.swiper-indicator.data-v-ef621f35{padding:0 24rpx;position:absolute;bottom:16rpx;display:flex;justify-content:center;width:100%;z-index:1}.indicator-item-rect.data-v-ef621f35{width:10rpx;height:10rpx;margin:0 6rpx;border-radius:4rpx;transition:all .5s;background-color:#f1f0f0}.indicator-item-rect-active.data-v-ef621f35{width:24rpx;background-color:#bababa}

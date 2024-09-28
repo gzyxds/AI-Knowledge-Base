@@ -1,0 +1,1 @@
+import{r as i}from"./index.d9c09296.js";function l(t){return i.get({url:"/kb.digital/lists",params:t})}function r(t){return i.get({url:"/kb.digital/detail",params:t})}function e(t){return i.post({url:"/kb.digital/del",params:t})}function u(t){return i.post({url:"/kb.digital/changeStatus",params:t})}export{l as a,e as d,r as g,u as p};

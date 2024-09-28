@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-image": "../../../../uni_modules/vk-uview-ui/components/u-image/u-image",
+    "u-icon": "../../../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "z-paging": "../../../../node-modules/z-paging/components/z-paging/z-paging",
+    "add-btn": "../add-btn",
+    "add-popup": "./add-popup",
+    "share-user": "./share-user"
+  }
+}

@@ -1,0 +1,1 @@
+<view><uni-file-picker wx:if="{{f}}" class="r" u-s="{{['d']}}" u-r="filePickerRef" bindretry="{{b}}" bindselect="{{c}}" binddelete="{{d}}" u-i="81cbe73a-0" bind:__l="__l" bindupdateModelValue="{{e}}" u-p="{{f}}"><slot/></uni-file-picker></view>

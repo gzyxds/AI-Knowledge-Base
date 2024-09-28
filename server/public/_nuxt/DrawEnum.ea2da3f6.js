@@ -1,0 +1,1 @@
+var g=(t=>(t.SD="sd",t.MJ_GOAPI="mj_goapi",t.DALLE3="dalle3",t))(g||{}),i=(t=>(t.txt2img="txt2img",t.img2img="img2img",t.SCALE2D="scale2d",t))(i||{});const l={1:"文生图",2:"图生图",3:"选中放大",4:"选中变换"};export{g as DrawModeEnum,l as DrawResultTypeEnum,i as DrawTypeEnum};

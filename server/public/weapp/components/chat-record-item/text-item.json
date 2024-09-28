@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ua-markdown": "../ua-markdown/ua-markdown",
+    "u-image": "../../uni_modules/vk-uview-ui/components/u-image/u-image",
+    "video-preview": "../video-preview/video-preview",
+    "u-loading": "../../uni_modules/vk-uview-ui/components/u-loading/u-loading",
+    "u-icon": "../../uni_modules/vk-uview-ui/components/u-icon/u-icon"
+  }
+}

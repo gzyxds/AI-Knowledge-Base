@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-icon": "../../../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "l-textarea": "../../../../components/l-textarea/l-textarea",
+    "u-form-item": "../../../../uni_modules/vk-uview-ui/components/u-form-item/u-form-item",
+    "u-loading": "../../../../uni_modules/vk-uview-ui/components/u-loading/u-loading",
+    "keyword-suggestion": "./components/keyword-suggestion"
+  }
+}

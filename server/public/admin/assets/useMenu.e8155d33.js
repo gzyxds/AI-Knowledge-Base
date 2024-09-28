@@ -1,0 +1,1 @@
+import{r as s,E as a}from"./@vue.7946e41b.js";const e=s("nav"),o=()=>{const n=()=>{e.value="nav"},t=()=>{e.value="menu"};return a(()=>{e.value="nav"}),{selectActive:e,selectNav:n,selectMenu:t}};export{o as u};

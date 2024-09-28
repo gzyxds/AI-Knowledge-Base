@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js");if(!Array){e.resolveComponent("u-image")()}Math;const r=e.defineComponent({__name:"record-image",props:{url:null,name:null},setup:r=>(n,o)=>e.e({a:r.url},r.url?{b:e.o((n=>{return o=[r.url],void e.index.previewImage({urls:o});var o})),c:e.p({src:r.url,width:"80",height:"80"}),d:e.t(r.name)}:{})});wx.createComponent(r);

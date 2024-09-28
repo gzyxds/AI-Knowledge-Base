@@ -1,0 +1,1 @@
+.robot-item{display:flex;align-items:center;padding:20rpx;background-color:#f8f8fb;border-radius:16rpx;margin-bottom:20rpx}.robot-item--active{background-color:var(--color-primary);color:var(--color-white, #ffffff)}

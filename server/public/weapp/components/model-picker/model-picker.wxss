@@ -1,0 +1,1 @@
+.model-container .u-collapse-item{margin-top:20rpx;padding:0 20rpx;border-radius:12rpx;border-width:1px;border-style:solid;border-color:transparent;box-shadow:0 1px 6px #e6e9ed}.model-container .collapse-item--active .u-collapse-item{border-width:1px;border-style:solid;border-color:var(--color-primary, #3C5EFD);background-color:var(--color-primary-light-9, rgb(236, 239, 255))}

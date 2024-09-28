@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "智能体详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "../../../uni_modules/vk-uview-ui/components/u-navbar/u-navbar",
+    "u-tabs": "../../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "robot-setting": "./component/robot-setting/index",
+    "release-robot": "./component/release-robot/index",
+    "dialogue": "./component/dialogue/index"
+  }
+}

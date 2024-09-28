@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="u-empty data-v-8589736f" style="{{'margin-top:' + c}}"><u-icon wx:if="{{b}}" class="data-v-8589736f" u-i="8589736f-0" bind:__l="__l" u-p="{{b}}"></u-icon><view class="u-slot-wrap data-v-8589736f"><slot name="bottom"></slot></view></view>

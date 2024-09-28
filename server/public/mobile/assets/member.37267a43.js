@@ -1,0 +1,1 @@
+import{aJ as e}from"./index-9f08b835.js";function r(){return e.get({url:"/memberPackage/lists"},{isAuth:!0})}function t(r){return e.post({url:"/memberPackage/buy",data:r})}function a(){return e.get({url:"/memberPackage/buyLog"},{isAuth:!0})}export{t as a,r as b,a as m};

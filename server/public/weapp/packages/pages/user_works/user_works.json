@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的作品",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "../../../uni_modules/vk-uview-ui/components/u-navbar/u-navbar",
+    "u-tabs": "../../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "music-list": "./components/music",
+    "video-list": "./components/video",
+    "draw-list": "./components/draw"
+  }
+}

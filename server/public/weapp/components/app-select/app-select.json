@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-tag": "../../uni_modules/vk-uview-ui/components/u-tag/u-tag",
+    "u-icon": "../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "u-search": "../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "u-radio": "../../uni_modules/vk-uview-ui/components/u-radio/u-radio",
+    "u-radio-group": "../../uni_modules/vk-uview-ui/components/u-radio-group/u-radio-group",
+    "u-checkbox": "../../uni_modules/vk-uview-ui/components/u-checkbox/u-checkbox",
+    "u-checkbox-group": "../../uni_modules/vk-uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-button": "../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "u-popup": "../../uni_modules/vk-uview-ui/components/u-popup/u-popup"
+  }
+}

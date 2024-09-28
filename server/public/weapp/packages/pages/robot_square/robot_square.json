@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "智能体广场",
+  "usingComponents": {
+    "u-tabs": "../../../uni_modules/vk-uview-ui/components/u-tabs/u-tabs",
+    "u-search": "../../../uni_modules/vk-uview-ui/components/u-search/u-search",
+    "tabbar": "../../../components/tabbar/tabbar",
+    "robot": "./_components/robot",
+    "draw": "./_components/draw",
+    "music": "./_components/music",
+    "video": "./_components/video"
+  }
+}

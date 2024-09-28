@@ -1,0 +1,1 @@
+.earnings-detail__header.data-v-3c701ffb{overflow:hidden;margin:20rpx;border-radius:14rpx}.earnings-detail__main.data-v-3c701ffb{height:calc(100vh - 40px - env(safe-area-inset-bottom))}.earnings-detail__main .list__item.data-v-3c701ffb{border-bottom:1px solid #e5e5e5}.earnings-detail__main .list__item.data-v-3c701ffb:last-child{border-bottom:none}

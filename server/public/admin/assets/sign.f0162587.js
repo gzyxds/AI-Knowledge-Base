@@ -1,0 +1,1 @@
+import{r as e}from"./index.d9c09296.js";function n(t){return e.get({url:"/market.task/signLogLists",params:t},{ignoreCancelToken:!0})}function r(t){return e.get({url:"/market.activityReward/getSignSetting",params:t})}function g(t){return e.post({url:"/market.activityReward/setSignSetting",params:t})}export{r as a,g as e,n as g};

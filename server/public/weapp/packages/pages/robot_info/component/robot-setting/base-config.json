@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "app-upload": "../../../../../components/app-upload/app-upload",
+    "u-form-item": "../../../../../uni_modules/vk-uview-ui/components/u-form-item/u-form-item",
+    "u-input": "../../../../../uni_modules/vk-uview-ui/components/u-input/u-input",
+    "app-select": "../../../../../components/app-select/app-select",
+    "u-switch": "../../../../../uni_modules/vk-uview-ui/components/u-switch/u-switch"
+  }
+}

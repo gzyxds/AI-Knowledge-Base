@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ea66"/>
+      <stop offset="1" stop-color="#00cb57"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_Public_account" data-name="icon_Public account" transform="translate(-890 -392)">
+    <rect id="矩形_8332" data-name="矩形 8332" width="44" height="44" rx="6" transform="translate(890 392)" fill="#d9ffea"/>
+    <g id="icon_Public_account-2" data-name="icon_Public account" transform="translate(708 123)">
+      <g id="矩形_8334" data-name="矩形 8334" transform="translate(182 269)" fill="#fff" stroke="#f2f2f2" stroke-width="1">
+        <rect width="44" height="44" rx="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="43" height="43" rx="5.5" fill="none"/>
+      </g>
+      <g id="组_19216" data-name="组 19216">
+        <circle id="椭圆_947" data-name="椭圆 947" cx="9" cy="9" r="9" transform="translate(195 282)" fill="#fff"/>
+        <path id="公众号" d="M100,85.325l-2.635-2.636V78.964a2.5,2.5,0,0,0-2.5-2.5H91.134L88.5,73.827a2.509,2.509,0,0,0-3.539,0l-2.635,2.635H78.6a2.5,2.5,0,0,0-2.5,2.5v3.725l-2.635,2.635a2.509,2.509,0,0,0,0,3.539L76.1,91.5v3.725a2.5,2.5,0,0,0,2.5,2.5h3.725l2.635,2.636a2.509,2.509,0,0,0,3.539,0l2.635-2.636H94.86a2.5,2.5,0,0,0,2.5-2.5V91.5L100,88.864a2.5,2.5,0,0,0,0-3.539Zm-6.828-.718-8.12,6.874a1.252,1.252,0,0,1-.811.3.743.743,0,0,1-.111-.006,1.238,1.238,0,0,1-.851-.443L80.15,87.582a1.25,1.25,0,1,1,1.918-1.6l2.32,2.781L91.554,82.7a1.252,1.252,0,1,1,1.615,1.912Z" transform="translate(117.269 203.902)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

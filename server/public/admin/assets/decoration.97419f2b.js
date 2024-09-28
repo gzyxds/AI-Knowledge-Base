@@ -1,0 +1,1 @@
+import{r}from"./index.d9c09296.js";function a(e){return r.get({url:"/decorate.page/detail",params:e},{ignoreCancelToken:!0})}function o(e){return r.post({url:"/decorate.page/save",params:e})}export{a as g,o as s};

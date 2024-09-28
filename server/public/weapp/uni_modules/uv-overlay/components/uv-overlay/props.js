@@ -1,0 +1,1 @@
+"use strict";var e,r;const t=require("../../../../common/vendor.js"),o={props:{show:{type:Boolean,default:!1},zIndex:{type:[String,Number],default:10070},duration:{type:[String,Number],default:300},opacity:{type:[String,Number],default:.5},...null==(r=null==(e=t.index.$uv)?void 0:e.props)?void 0:r.overlay}};exports.props=o;

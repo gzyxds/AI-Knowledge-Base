@@ -1,0 +1,1 @@
+"use strict";const e=require("../utils/request/index.js");exports.memberPackageBuy=function(r){return e.request.post({url:"/memberPackage/buy",data:r})},exports.memberPackageBuyLog=function(){return e.request.get({url:"/memberPackage/buyLog"},{isAuth:!0})},exports.memberPackageList=function(){return e.request.get({url:"/memberPackage/lists"},{isAuth:!0})};

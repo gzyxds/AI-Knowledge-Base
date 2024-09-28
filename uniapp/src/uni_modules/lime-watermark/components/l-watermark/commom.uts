@@ -1,0 +1,39 @@
+import { WatermarkProps, WatermarkFont } from './type'
+export const defaultFont : WatermarkFont = {
+	color: 'rgba(0,0,0,.15)',
+	fontSize: 16,
+	fontWeight: 'normal',
+	fontStyle: 'normal',
+	fontFamily: 'sans-serif',
+}
+
+
+
+// export function shallowMerge(obj1 : WatermarkFont | null, obj2 : WatermarkFont = defaultFont) : WatermarkFont {
+// 	if (obj1 != null) {
+// 		const result = obj1;
+// 		for (const key in obj2) {
+// 			if (obj1[key] == null) {
+// 				result[key] = obj2[key];
+// 			}
+// 		}
+// 		return result
+// 	} else {
+// 		return obj2
+// 	}
+// }
+
+// export function shallowMerge(obj1 : WatermarkProps | null, obj2 : WatermarkProps) : WatermarkProps {
+// 	if (obj1 != null) {
+// 		const result = obj1;
+// 		for (const key in obj2) {
+// 			if (obj1[key] == null) {
+// 				result[key] = obj2[key];
+// 			}
+// 		}
+// 		return result
+// 	} else {
+// 		return obj2
+// 	}
+// }
+

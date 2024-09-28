@@ -1,0 +1,249 @@
+<template>
+	<view class="l-watermark" ref="containerRef">
+		<!-- #ifdef APP -->
+		<view class="l-watermark__text">
+			<text v-for="text in contents" :key="text">{{text}}</text>
+		</view>
+		<slot></slot>
+		<view class="drawable" ref="drawableRef"></view>
+		<!-- #endif -->
+		<!-- #ifndef APP -->
+		<slot></slot>
+		<!-- #endif -->
+	</view>
+</template>
+<script lang="uts" setup>
+	import { WatermarkProps, WatermarkFont } from './type'
+	// #ifdef APP
+	import { Watermark } from './watermark.uts'
+	// #endif
+	// #ifndef APP
+	import { useCanvas } from './useCanvas';
+	import { createImage } from '@/uni_modules/lime-shared/createImage'
+	import { Watermark } from './watermark.js'
+	import { reRendering, getStyleStr, getPixelRatio, isCanvas2d } from './utils';
+	// #endif
+	// #ifdef WEB
+	import { useMutationObserver } from './useMutationObserver';
+	// #endif
+	defineOptions({
+		name: 'l-watermark'
+	})
+	const props = defineProps({
+		zIndex: {
+			type: Number,
+			default: 9
+		},
+		rotate: {
+			type: Number,
+			default: -22
+		},
+		width: {
+			type: Number,
+		},
+		height: {
+			type: Number,
+		},
+		/**uvue暂不支持*/
+		image: {
+			type: String,
+		},
+		// #ifdef APP
+		content: {
+			type: Object
+		},
+		// #endif
+		// #ifndef APP
+		content: [String, Array] as PropType<string | string[]>,
+		// #endif
+		font: {
+			type: Object as PropType<WatermarkFont>,
+		},
+		gap: {
+			type: Array as PropType<number[]>,
+			default: () : number[] => [30, 30]
+		},
+		offset: {
+			type: Array as PropType<number[]>
+		},
+		/**是否为全屏水印*/
+		fullScreen: {
+			type: Boolean,
+			default: false
+		},
+		/**图片内容重复次数 uvue不使用 存在只为对齐*/
+		baseSize: {
+			type: Number,
+			default: 2
+		},
+		/**行间隔*/
+		fontGap: {
+			type: Number,
+			default: 3
+		}
+	})
+
+	const contents = computed<string[]>(() : string[] => {
+		if (Array.isArray(props.content)) {
+			return props.content as string[]
+		} else if (typeof props.content == 'string') {
+			return [props.content as string] as string[]
+		} else {
+			return []
+		}
+	})
+	const context = getCurrentInstance()
+	let watermark : Watermark | null = null;
+	// #ifndef APP
+	const store = reactive({
+		waterUrl: "",
+		markWidth: 0,
+		markLeft: 0,
+		markTop: 0,
+		canvasShow: true
+	})
+	const canvas = useCanvas('l-watermark', { context });
+	const styles = computed(() => ({
+		zIndex: props.zIndex,
+		position: props.fullScreen ? 'fixed' : 'absolute',
+		left: store.markLeft,
+		top: store.markTop,
+		right: 0,
+		bottom: 0,
+		pointerEvents: 'none',
+		// #ifndef APP-NVUE
+		backgroundRepeat: 'repeat',
+		backgroundSize: `${store.markWidth}px`,
+		backgroundImage: `url('${store.waterUrl}')`
+		// #endif
+	}))
+	// #endif
+	// #ifdef APP
+	const drawableRef = ref<UniElement | null>(null)
+	// #endif
+	// #ifdef WEB
+	const stopObservation = ref<boolean>(false);
+	const containerRef = ref<UniElement | null>(null)
+	const watermarkRef = ref<HTMLDivElement|null>(null);
+	const destroyWatermark = () => {
+		if (watermarkRef.value) {
+			watermarkRef.value.remove();
+			watermarkRef.value = null;
+		}
+	}
+	useMutationObserver(containerRef, (mutations : MutationRecord[]) => {
+		if (stopObservation.value) {
+			return;
+		}
+		mutations.forEach((mutation) => {
+			if (reRendering(mutation, watermarkRef.value)) {
+				destroyWatermark();
+				renderWatermark();
+			}
+		});
+	}, {
+		childList: true,
+		attributes: true,
+		subtree: true,
+	})
+	// #endif
+	// #ifndef APP
+	const appendWatermark = (image : string, markWidth : number, gap : any = {}) => {
+		store.waterUrl = image
+		const { gapX, offsetLeft, gapXCenter, gapYCenter, offsetTop } = gap
+		store.markWidth = (gapX + markWidth) * props.baseSize
+		store.markLeft = offsetLeft - gapXCenter;
+		store.markTop = offsetTop - gapYCenter;
+		// #ifdef WEB
+		if (containerRef.value && watermarkRef.value) {
+			stopObservation.value = true;
+			watermarkRef.value.setAttribute(
+				'style',
+				getStyleStr(styles.value)
+			);
+			// @ts-ignore
+			containerRef.value?.append(watermarkRef.value);
+			setTimeout(() => {
+				stopObservation.value = false;
+			});
+		}
+		// #endif
+	}
+	// #endif
+
+
+	const renderWatermark = () => {
+		// #ifdef APP
+		if (drawableRef.value == null || contents.value.length == 0) return
+		if (watermark == null) {
+			watermark = new Watermark(drawableRef.value!, context?.proxy!)
+		}
+		drawableRef.value?.style!.setProperty('zIndex', props.zIndex)
+		if (props.fullScreen) {
+			drawableRef.value?.style!.setProperty('position', 'fixed')
+		}
+		// #endif
+		// #ifndef APP
+		if (!watermark) {
+			watermark = new Watermark(canvas as HTMLCanvasElement, {
+				// @ts-ignore
+				createImage,
+				appendWatermark,
+				pixelRatio: getPixelRatio()
+			})
+		}
+		// #endif
+		// #ifdef WEB
+		if (!watermarkRef.value) {
+			watermarkRef.value = document.createElement('div');
+		}
+		// #endif
+		if (watermark == null) {
+
+		}
+		watermark!.render({
+			rotate: props.rotate,
+			offset: props.offset,
+			baseSize: props.baseSize,
+			fontGap: props.fontGap,
+			gap: props.gap,
+			width: props.width,
+			height: props.height,
+			content: contents.value,
+			font: props.font,
+		} as WatermarkProps)
+	}
+	onMounted(() => {
+		nextTick(() => {
+			watchEffect(renderWatermark)
+		})
+	})
+</script>
+<style lang="scss">
+	.l-watermark {
+		position: relative;
+		/* #ifdef APP */ 
+		overflow: hidden;
+
+		// background-color: rgba(0, 0, 0, 0.1);
+		.drawable {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: 100%;
+			height: 100%;
+			transform: translate(-50%, -50%);
+			pointer-events: none;
+		}
+
+		&__text {
+			position: absolute;
+			left: 0;
+			top: 0;
+			align-self: flex-start;
+			background-color: aquamarine;
+			opacity: 0;
+		}
+		/* #endif */ 
+	}
+</style>

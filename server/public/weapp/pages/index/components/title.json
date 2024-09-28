@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-sticky": "../../../uni_modules/vk-uview-ui/components/u-sticky/u-sticky"
+  }
+}

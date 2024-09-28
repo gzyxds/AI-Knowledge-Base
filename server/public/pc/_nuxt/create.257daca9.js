@@ -1,0 +1,1 @@
+function e(t){return $request.get({url:"/chat.creation/category",params:t})}function r(t){return $request.get({url:"/chat.creation/lists",params:t})}function n(t){return $request.get({url:"/chat.creation/detail",params:t})}function a(t){return $request.post({url:"/chat.creation/collect",params:t})}export{r as a,n as b,a as c,e as g};

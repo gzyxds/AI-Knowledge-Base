@@ -1,0 +1,1 @@
+import{r as e}from"./index.d9c09296.js";function o(r){return e.get({url:"/draw.draw_records/lists",params:r},{ignoreCancelToken:!0})}function a(){return e.get({url:"/draw.draw_records/drawModel"},{ignoreCancelToken:!0})}function t(r){return e.post({url:"/draw.draw_records/delete",params:r})}export{a,t as b,o as d};

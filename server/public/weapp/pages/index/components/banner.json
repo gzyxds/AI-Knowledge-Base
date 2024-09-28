@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-swiper": "../../../uni_modules/vk-uview-ui/components/u-swiper/u-swiper"
+  }
+}

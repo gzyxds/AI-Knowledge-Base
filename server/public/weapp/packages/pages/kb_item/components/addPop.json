@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "app-upload": "../../../../components/app-upload/app-upload",
+    "u-button": "../../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "app-upload-file": "../../../../components/app-upload-file/app-upload-file",
+    "u-popup": "../../../../uni_modules/vk-uview-ui/components/u-popup/u-popup"
+  }
+}

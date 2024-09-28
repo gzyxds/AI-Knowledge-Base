@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "发布智能体",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "../../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "u-button": "../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "release-web": "./components/release-web",
+    "release-api": "./components/release-api",
+    "js-embedding": "./components/js-embedding",
+    "oa-config": "./components/oa-config",
+    "call-description": "./components/call-description",
+    "poster": "./components/poster"
+  }
+}

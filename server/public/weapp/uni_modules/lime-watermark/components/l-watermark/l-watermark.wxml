@@ -1,0 +1,1 @@
+<view class="l-watermark class" ref="containerRef"><slot></slot><canvas wx:if="{{a}}" style="{{b}}" class="l-watermark__canvas" canvas-id="l-watermark"></canvas><view style="{{c}}"></view></view>

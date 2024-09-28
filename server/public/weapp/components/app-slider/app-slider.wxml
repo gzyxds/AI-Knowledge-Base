@@ -1,0 +1,1 @@
+<view class="slider"><slider style="margin:0" value="{{a}}" min="{{b}}" max="{{c}}" step="{{d}}" active-color="{{e}}" background-color="{{f}}" block-size="{{g}}" show-value="{{h}}" disabled="{{i}}" bindchange="{{j}}" bindchanging="{{k}}"></slider></view>

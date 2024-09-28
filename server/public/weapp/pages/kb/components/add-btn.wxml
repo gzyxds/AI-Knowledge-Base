@@ -1,0 +1,1 @@
+<dragon-button wx:if="{{c}}" u-s="{{['d']}}" u-i="54097b7e-0" bind:__l="__l" u-p="{{c}}"><view class="add-btn" bindtap="{{b}}"><u-icon wx:if="{{a}}" u-i="54097b7e-1,54097b7e-0" bind:__l="__l" u-p="{{a}}"/></view></dragon-button>

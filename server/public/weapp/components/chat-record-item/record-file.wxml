@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="flex mb-_bl_32rpx_br_ bg-white rounded-_bl_10rpx_br_ p-_bl_20rpx_br_ max-w-_bl_450rpx_br_ items-center" bindtap="{{c}}"><view class="line-clamp-2 text-main flex-1 min-w-0 ml-_bl_12rpx_br_" style="{{'word-break:' + 'break-word'}}">{{b}}</view></view>

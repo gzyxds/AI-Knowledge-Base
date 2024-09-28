@@ -1,0 +1,1 @@
+<uv-upload wx:if="{{c}}" u-s="{{['d']}}" bindafterRead="{{a}}" binddelete="{{b}}" u-i="cb0739ee-0" bind:__l="__l" u-p="{{c}}"><slot/> 111 </uv-upload>

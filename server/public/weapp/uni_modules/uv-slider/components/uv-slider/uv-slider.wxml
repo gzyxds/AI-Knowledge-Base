@@ -1,0 +1,1 @@
+<view class="uv-slider" style="{{m}}"><slider min="{{a}}" max="{{b}}" step="{{c}}" value="{{d}}" activeColor="{{e}}" backgroundColor="{{f}}" blockSize="{{g}}" blockColor="{{h}}" showValue="{{i}}" disabled="{{j}}" bindchanging="{{k}}" bindchange="{{l}}"></slider></view>

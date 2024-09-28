@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "AI音乐",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "../../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "router-navigate": "../../../node-modules/uniapp-router-next/components/router-navigate/router-navigate",
+    "u-navbar": "../../../uni_modules/vk-uview-ui/components/u-navbar/u-navbar",
+    "u-input": "../../../uni_modules/vk-uview-ui/components/u-input/u-input",
+    "u-form-item": "../../../uni_modules/vk-uview-ui/components/u-form-item/u-form-item",
+    "u-loading": "../../../uni_modules/vk-uview-ui/components/u-loading/u-loading",
+    "l-textarea": "../../../components/l-textarea/l-textarea",
+    "u-switch": "../../../uni_modules/vk-uview-ui/components/u-switch/u-switch",
+    "u-image": "../../../uni_modules/vk-uview-ui/components/u-image/u-image",
+    "u-form": "../../../uni_modules/vk-uview-ui/components/u-form/u-form",
+    "u-button": "../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "tabbar": "../../../components/tabbar/tabbar"
+  }
+}

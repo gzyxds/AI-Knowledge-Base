@@ -1,0 +1,1 @@
+.add-btn{display:flex;justify-content:center;align-items:center;border-radius:50%;width:88rpx;height:88rpx;background:linear-gradient(90deg,var(--color-minor) 0%,var(--color-primary) 100%);filter:drop-shadow(0 4px 10px rgba(0,0,0,.1607843137));color:var(--color-white, #ffffff)}

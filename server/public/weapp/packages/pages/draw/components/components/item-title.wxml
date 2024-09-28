@@ -1,0 +1,1 @@
+<view class="flex"><text wx:if="{{a}}" class="text-error text-lg">*</text><view style="{{'font-size:' + c + ';' + ('font-weight:' + d)}}">{{b}}</view><view class="flex mx-2" catchtap="{{f}}"><u-icon wx:if="{{e}}" u-i="5e45e82f-0" bind:__l="__l" u-p="{{e}}"/></view></view>

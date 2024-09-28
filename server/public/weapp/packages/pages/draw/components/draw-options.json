@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "app-slider": "../../../../components/app-slider/app-slider",
+    "app-select": "../../../../components/app-select/app-select",
+    "u-collapse-item": "../../../../uni_modules/vk-uview-ui/components/u-collapse-item/u-collapse-item",
+    "u-collapse": "../../../../uni_modules/vk-uview-ui/components/u-collapse/u-collapse",
+    "item-title": "./components/item-title"
+  }
+}

@@ -1,0 +1,1 @@
+<u-sticky wx:if="{{a}}" class="data-v-e6a9cac7" u-s="{{['d']}}" u-i="e6a9cac7-0" bind:__l="__l" u-p="{{e}}"><view class="header flex items-center data-v-e6a9cac7" style="{{'background-color:' + d}}"><image src="{{b}}" class="w-_bl_50rpx_br_ h-_bl_50rpx_br_ rounded-md data-v-e6a9cac7"/><text class="ml-2 data-v-e6a9cac7">{{c}}</text></view></u-sticky>

@@ -1,0 +1,29 @@
+
+export type WatermarkFont  = {
+	color?: string,
+	fontSize?: number,
+	fontWeight?: string,
+	fontStyle?: string,
+	fontFamily?: string
+}
+export type WatermarkGAP = {
+	gapX: number
+	gapY: number
+	gapXCenter: number
+	gapYCenter: number
+	offsetLeft: number
+	offsetTop: number
+}
+export type WatermarkProps = {
+  zIndex?: number,
+  rotate?: number,
+  width?: number,
+  height?: number,
+  image?: string,
+  content?: string[],
+  font?: WatermarkFont,
+  gap?: number[],
+  offset?: number[],
+  fontGap: number,
+  baseSize: number
+}

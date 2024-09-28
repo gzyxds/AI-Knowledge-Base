@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "model-picker": "../../../../components/model-picker/model-picker",
+    "u-icon": "../../../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "chat-record-item": "../../../../components/chat-record-item/chat-record-item",
+    "chat-input": "../../../../components/chat-input/chat-input",
+    "z-paging": "../../../../node-modules/z-paging/components/z-paging/z-paging",
+    "l-watermark": "../../../../uni_modules/lime-watermark/components/l-watermark/l-watermark",
+    "session-popup": "../../../components/session/popup",
+    "problem-example": "./components/problem-example",
+    "problem-example-popup": "./components/problem-example-popup"
+  }
+}

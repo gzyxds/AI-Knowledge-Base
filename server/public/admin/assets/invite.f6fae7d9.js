@@ -1,0 +1,1 @@
+import{r as e}from"./index.d9c09296.js";function n(t){return e.get({url:"/market.task/inviteLogLists",params:t},{ignoreCancelToken:!0})}function r(t){return e.get({url:"/market.activityReward/getInviteSetting",params:t})}function a(t){return e.post({url:"/market.activityReward/setInviteSetting",params:t})}export{r as a,a as e,n as g};

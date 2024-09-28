@@ -1,0 +1,1 @@
+import{aJ as t}from"./index-9f08b835.js";function a(a){return t.get({url:"/chat.creation/category",data:a})}function r(a){return t.get({url:"/chat.creation/lists",data:a})}function n(a){return t.get({url:"/chat.creation/detail",data:a})}function c(a){return t.post({url:"/chat.creation/collect",data:a})}export{r as a,n as b,c,a as g};

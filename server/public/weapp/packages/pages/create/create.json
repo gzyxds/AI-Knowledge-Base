@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "创作",
+  "usingComponents": {
+    "u-image": "../../../uni_modules/vk-uview-ui/components/u-image/u-image",
+    "model-picker": "../../../components/model-picker/model-picker",
+    "u-icon": "../../../uni_modules/vk-uview-ui/components/u-icon/u-icon",
+    "u-button": "../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "creation-history-item": "../../components/creation-history-item/creation-history-item",
+    "form-designer": "../../components/form-designer/form-designer"
+  }
+}

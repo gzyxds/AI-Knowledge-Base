@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-form-item": "../../../../uni_modules/vk-uview-ui/components/u-form-item/u-form-item",
+    "item-title": "./components/item-title"
+  }
+}

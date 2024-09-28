@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-input": "../../../../../uni_modules/vk-uview-ui/components/u-input/u-input",
+    "u-form-item": "../../../../../uni_modules/vk-uview-ui/components/u-form-item/u-form-item",
+    "uni-th": "../../../../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../../../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "uni-td": "../../../../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-table": "../../../../../uni_modules/uni-table/components/uni-table/uni-table",
+    "u-button": "../../../../../uni_modules/vk-uview-ui/components/u-button/u-button",
+    "add-menus": "./add-menus"
+  }
+}

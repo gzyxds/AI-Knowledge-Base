@@ -1,0 +1,1 @@
+import t from"./select-music.531ba7d7.js";import o from"./select-dub.46beefd8.js";import{k as c,H as r,I as s,X as e}from"./swiper-vue.2eb6bd20.js";const a={class:"flex"},f=c({__name:"center-top",setup(n){return(m,p)=>(r(),s("div",a,[e(t,{class:"mr-[20px]"}),e(o)]))}});export{f as _};

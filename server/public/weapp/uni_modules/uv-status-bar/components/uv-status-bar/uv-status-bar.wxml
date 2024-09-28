@@ -1,0 +1,1 @@
+<view style="{{a}}" class="uv-status-bar data-v-1f55ed6c"><slot/></view>

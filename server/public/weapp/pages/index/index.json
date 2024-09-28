@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tabbar": "../../components/tabbar/tabbar",
+    "title": "./components/title",
+    "banner": "./components/banner",
+    "ad": "./components/ad",
+    "menu": "./components/menu",
+    "hot": "./components/hot"
+  }
+}

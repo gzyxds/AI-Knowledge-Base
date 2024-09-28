@@ -1,0 +1,1 @@
+"use strict";exports.AUTHORIZATION_KEY="Authorization",exports.BACK_URL="back_url",exports.CHAT_LIMIT_KEY="chan_limit",exports.SHARE_ID="share_id",exports.TOKEN_KEY="token",exports.USER_LOGIN_DATA="USER_LOGIN_DATA",exports.USER_SN="user_sn",exports.VISITOR_ID="visitor_id";
