@@ -16,20 +16,8 @@
 </p>
 </p>
 
-### 🧠后台
- ![输入图片说明](https://server.chatmoney.cn/uploads/images/20240430170834b521c6017.png)
 
 
-### ✨前台
-![输入图片说明](https://server.chatmoney.cn/uploads/images/20240430170834b521c6017.png)
-
-![输入图片说明](https://server.chatmoney.cn/uploads/images/202404301708507bb6c4908.png)
-![输入图片说明](https://server.chatmoney.cn/uploads/images/2024043017080004b6e9791.png)
-![输入图片说明](https://server.chatmoney.cn/uploads/images/2024043017093405e292244.png)
-![输入图片说明](https://server.chatmoney.cn/uploads/images/20240430170946fe6af4788.png)
-
-
- <br>
 
 ##  👀体验后台
 ### 管理后台
