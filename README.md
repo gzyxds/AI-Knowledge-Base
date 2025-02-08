@@ -1,4 +1,4 @@
- <h1 align="center">🚀ChatAigcWor全能AI知识库系统「PHP源码版」</h1>
+ <h1 align="center">🚀work企业级全能AI知识库系统「PHP源码版」</h1>
 <h4 align="center">🚀快速开发、🛠️ 一键生成代码、✅后台多端自适应、📱手机端、🖥️PC（电脑）端前台</h4> 
 <p align="center">
 <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-8-8892bf"></a> <a href="https://www.tslang.cn/"><img src="https://img.shields.io/badge/TypeScript-3-294e80"></a> <a href="#"><img src="https://img.shields.io/badge/ThinkPHP-6.0-6fb737"></a> <a href="#"><img src="https://img.shields.io/badge/Vue.js-3-4eb883"></a> <a href="#"><img src="https://img.shields.io/badge/vite-2-ffc018"></a> <a href="#"><img src="https://img.shields.io/badge/Element Plus-2-409eff"></a> <a href="https://uniapp.dcloud.io/"><img src="https://img.shields.io/badge/uniapp--d85806"></a> <a href="https://www.nuxtjs.cn/"><img src="https://img.shields.io/badge/Nuxt.js--18bc78"></a>
@@ -38,36 +38,36 @@
 ### 微信小程序前台
 
 ### 手机端网页前台
-https://connew.cn
+https://www.cnai.art/mobile
 ### PC（电脑）端网页前台
-### https://connew.cn
+https://www.cnai.art/
 
 ### 开发文档
-地址：
+地址：https://doc.cnai.art/
 
 #### 🔥🔥系统为商业授权后才可使用
 <h4 align="center">🚀快速开发、🛠️ 一键生成代码、✅后台多端自适应、📱手机端、🖥️PC（电脑）端前台</h4> 
 
 
 ## 👨‍💻‍简介
-ChatAI-聊天绘画系统「PHP源码版」，基于前后端分离架构以及Vue3、uni-app、ThinkPHP6.x、PHP8.0技术栈开发，包含PC端、H5端、小程序端、APP端。ChatAI聚合对接国内外知名主流大语言模型接口及中转平台，如ChatGLM、讯飞星火、文心一言、GPT3.5、GPT4.0、API2D、知数云。并且聚合对接MJ绘画、SD绘画、意间AI等多种绘画通道，实现了AI对话+AI绘画的融合使用。系统功能包括：AI智能对话、AI创作模型、AI绘画、分销推广、会员套餐、充值套餐、卡密兑换、模型计费、会员回流优惠券等丰富的营销功能。部分功能开发中，欢迎前往体验~。
+全能AI知识库系统PHP版，基于前后端分离架构以及Vue3、uni-app、ThinkPHP6.x、PostgreSQL、pgvector技术栈开发，包含PC端、H5端。ChatMoney支持问答式和文档式知识库，能够导入txt、doc、docx、pdf、md等多种格式文档。导入数据完成向量化训练后，用户提问即可进行向量化搜索，并且结合大语言模型进行AI回答，可以提升AI回答的专业性和实用性。知识库应用支持对外发布聊天网页窗口，iframe代码，js代码以及API接口，拥有强大的第三方对接能力。适用于企业智能客服、企业智能文档、专家顾问助理等多种企业级商用场景，具有较大的商业使用价值。欢迎前往体验~
 <br>
 
 ### 🧰场景介绍
 
-🚀 **ChatAIGC知识库**: 赋能AI创业, 为个人增效, 为企业降本!
+🚀 **AIGC知识库**: 赋能AI创业, 为个人增效, 为企业降本!
 
 🌟 **产品定位介绍**:
 定位于企业级AI服务市场, 提供高度定制化个性化的AI机器人解决方案。ChatAIGC致力于打造成为国内领先的, 可私有化部署, 可二次开发的「超级AI平台」, 赋能AI创业, 为个人增效, 为企业降本。AI时代「超级个体」概念不再遥远, 一人创办一家百万美金收入公司不再是梦想!
 
-🏢 **ChatMoney知识库**:
+🏢 **企业级AIGC知识库**:
 - 🚀 0代码0门槛, 按照需求灵活构建机器人
 - 👥 业务人员: 零代码无门槛, 直接上手使用
 - 🔧 部署简单: 可视化引导, 傻瓜式安装
 - 🛠️ 二次开发: 可去除版权, 易扩展开发
 - 🔋 售后支持: 1对1售后指导, 运营部署文档
 
-💡 **ChatAIGC知识库系统**可以进行机器人角色设定、知识库训练、发布/分享机器人, 同时还带有AI智能对话, 无限场景AI创作等强大功能, 支持ChatGPT、ChatGLM、文心一言、讯飞星火及本地大模型, 并且拥有多种第三方渠道对接能力。适用于AI教培, 个人学习, 个人创作, 个人文档整理, 企业智能客服、企业智能文档、专家顾问助理等多种个人及企业商业场景, 有较大的商业推广价值!
+💡 **AIGC知识库系统**可以进行机器人角色设定、知识库训练、发布/分享机器人, 同时还带有AI智能对话, 无限场景AI创作等强大功能, 支持ChatGPT、ChatGLM、文心一言、讯飞星火及本地大模型, 并且拥有多种第三方渠道对接能力。适用于AI教培, 个人学习, 个人创作, 个人文档整理, 企业智能客服、企业智能文档、专家顾问助理等多种个人及企业商业场景, 有较大的商业推广价值!
 
 ✨ **产品功能亮点**:
 - 🧠 智能时代的知识引擎
