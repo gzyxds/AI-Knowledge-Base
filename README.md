@@ -1,4 +1,4 @@
-![输入图片说明](Main%20Component%20#1.png)
+![输入图片说明](server/public/uploads/Main%20Component%20#1.png)
 <h1 align="center">🚀work企业级全能AI知识库系统「PHP源码版」</h1>
 <h4 align="center">🚀快速开发、🛠️ 一键生成代码、✅后台多端自适应、📱手机端、🖥️PC（电脑）端前台</h4> 
 <p align="center">
