@@ -1,5 +1,5 @@
-![输入图片说明](pc/src/Component.png)
-<h1 align="center">🚀work企业级全能AI知识库系统「PHP源码版」</h1>
+
+<h1 align="center">🚀艺创AI企业级全能AI智能体知识库系统「PHP源码版」</h1>
 <h4 align="center">🚀快速开发、🛠️ 一键生成代码、✅后台多端自适应、📱手机端、🖥️PC（电脑）端前台</h4> 
 <p align="center">
 <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-8-8892bf"></a> <a href="https://www.tslang.cn/"><img src="https://img.shields.io/badge/TypeScript-3-294e80"></a> <a href="#"><img src="https://img.shields.io/badge/ThinkPHP-6.0-6fb737"></a> <a href="#"><img src="https://img.shields.io/badge/Vue.js-3-4eb883"></a> <a href="#"><img src="https://img.shields.io/badge/vite-2-ffc018"></a> <a href="#"><img src="https://img.shields.io/badge/Element Plus-2-409eff"></a> <a href="https://uniapp.dcloud.io/"><img src="https://img.shields.io/badge/uniapp--d85806"></a> <a href="https://www.nuxtjs.cn/"><img src="https://img.shields.io/badge/Nuxt.js--18bc78"></a>
@@ -32,14 +32,14 @@ https://www.cnai.art/mobile
 https://www.cnai.art/
 
 ### 开发文档
-地址：https://doc.cnai.art/
+地址：https://urlnet.cn/doc
 
 #### 🔥🔥系统为商业授权后才可使用
 <h4 align="center">🚀快速开发、🛠️ 一键生成代码、✅后台多端自适应、📱手机端、🖥️PC（电脑）端前台</h4> 
 
 
 ## 👨‍💻‍简介
-全能AI知识库系统PHP版，基于前后端分离架构以及Vue3、uni-app、ThinkPHP6.x、PostgreSQL、pgvector技术栈开发，包含PC端、H5端。ChatMoney支持问答式和文档式知识库，能够导入txt、doc、docx、pdf、md等多种格式文档。导入数据完成向量化训练后，用户提问即可进行向量化搜索，并且结合大语言模型进行AI回答，可以提升AI回答的专业性和实用性。知识库应用支持对外发布聊天网页窗口，iframe代码，js代码以及API接口，拥有强大的第三方对接能力。适用于企业智能客服、企业智能文档、专家顾问助理等多种企业级商用场景，具有较大的商业使用价值。欢迎前往体验~
+全能AI知识库系统PHP版，基于前后端分离架构以及Vue3、uni-app、ThinkPHP6.x、PostgreSQL、pgvector技术栈开发，包含PC端、H5端。艺创AI支持问答式和文档式知识库，能够导入txt、doc、docx、pdf、md等多种格式文档。导入数据完成向量化训练后，用户提问即可进行向量化搜索，并且结合大语言模型进行AI回答，可以提升AI回答的专业性和实用性。知识库应用支持对外发布聊天网页窗口，iframe代码，js代码以及API接口，拥有强大的第三方对接能力。适用于企业智能客服、企业智能文档、专家顾问助理等多种企业级商用场景，具有较大的商业使用价值。欢迎前往体验~
 <br>
 
 ### 🧰场景介绍
@@ -117,29 +117,30 @@ PC端前台使用Nuxt.js，支持服务器端渲染(SSR)，对SEO友好。
 ![联系](kf.png)
 
 ### 🖥️界面预览
-![](https://ai.chatmoney.cn/resource/image/decorate/home_bg_002.png) <br>
-![输入图片说明](demo.png)
-![输入图片说明](demo2.png)
-<br>
+
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-1.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-2.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-3.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-4.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-5.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-6.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-7.png)
+![输入图片说明](pc/server/%E8%89%BA%E5%88%9BAI-8.png)
 
 ### 📱手机端前台界面
-![输入图片说明](wap.png)
- <br>
-
-### 🖥️PC端前台界面
-![](https://chat.chatmoney.cn/uploads/images/20240404/20240404125437c60bf6618.png)
-
-根据《[生成式人工智能服务管理暂行办法](https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)》的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
+![输入图片说明](pc/server/%E7%BB%84%E5%90%88%202.png)
 
 
 
-# ChatMoney-AIGC企业全能AIGC知识库系统
 
-🚀🤖 ChatMoney：超级AI平台，赋能AI创业，为个人增效，为企业降本！ 🚀🤖
+
+# 艺创AI企业全能AIGC知识库系统
+
+🚀🤖 艺创AI：超级AI平台，赋能AI创业，为个人增效，为企业降本！ 🚀🤖
 
 📚 **产品定位介绍** 📚
 
-🌟 **ChatMoney-AIGC**：国内领先的超级AI平台 🚀
+🌟 **艺创AI**：国内领先的超级AI平台 🚀
 
 - 🛠️ **私有化部署**：支持企业级私有化部署
 - 🔧 **二次开发**：提供高度定制化个性化AI机器人解决方案
@@ -188,7 +189,7 @@ PC端前台使用Nuxt.js，支持服务器端渲染(SSR)，对SEO友好。
 - 📦 二次开发可去除版权，易扩展开发
 - 👩‍💻 1对1售后指导，运营部署文档！
 
- 🌈ChatMoneyAIGC知识库🌈
+ 🌈艺创AIAIGC知识库🌈
 
 * 📜 机器人角色设定、知识库训练、发布/分享机器人！
 * 🤖 AI智能对话，无限场景AI创作！*
@@ -220,7 +221,7 @@ PC端前台使用Nuxt.js，支持服务器端渲染(SSR)，对SEO友好。
 我们每个AI系统的版本功能都不一样，面向群体也是不一样的。
 请选择适合自己想运营的AI系统购买。
 
-## ChatMoney-AIGC-智能AI知识库系统「PHP源码版」
+## 艺创AI-智能AI知识库系统「PHP源码版」
 
 
 AIGC-智能AI知识库系统「PHP源码版」
@@ -229,7 +230,7 @@ AIGC-智能AI知识库系统「PHP源码版」
 
 ### 演示站点
  🌐 官方网站
-🖥️ [ChatMoneyAIGC 官网](https://www.urlnet.cn/)
+🖥️ [艺创AIAIGC 官网](https://www.urlnet.cn/)
 
 
 🔍 全能AI知识库系统 演示站点
@@ -240,7 +241,7 @@ AIGC-智能AI知识库系统「PHP源码版」
 | -------------- | ------------------------------------------------------------- | ---------- | ---------- |
 | 💻 PC演示前台   | [PC系统演示](http://www.cnai.art/)             | 自行注册 | 自行注册 |
 | 📱 移动端H5演示 | [移动系统演示](http://www.cnai.art/mobile/) | 自行注册 | 自行注册 |
-| 🔑 体验后台     | [后台系统演示](https://ai-demo.chatmoney.cn/admin) | admin | 123456 |
+| 🔑 体验后台     | [后台系统演示](https://ai-demo.艺创AI.cn/admin) | admin | 123456 |
 
 🏆 客户案例
 - 🌐 [www.cnai.art](http://www.cnai.art) - 艺创AI创作平台
